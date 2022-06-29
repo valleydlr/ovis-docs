@@ -1,9 +1,5 @@
-Template for the Read the Docs tutorial
+OVIS-HPC Documentation
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This repository hosts all Ovis/LDMS related documentation such as how-to tutorials, getting started with LDMS, docker-hub links, LDMS API and much more.
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
