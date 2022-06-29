@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'OVIS-HPC'
+copyright = '2022, Sandia National Laboratories and Open Grid Computing, Inc.'
+author = 'SNL/OGC'
 
 release = '0.1'
 version = '0.1.0'
