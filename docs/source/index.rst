@@ -15,21 +15,22 @@ OVIS is a modular system for HPC data collection, transport, storage, -log messa
 
 LDMS is a low-overhead, low-latency framework for collecting, transfering, and storing metric data on a large distributed computer system.
 
-A github repository for the OVIS-LDMS source code can be found here: https://github.com/ovis-hpc/ovis 
 
 .. toctree::
    :maxdepth: 3
    :caption: Contents
 
-    :doc:`Quick Start <quickstart>`
+    :doc:`quickstart`
   
 
 .. toctree::
    :maxdepth: 1
-   :caption: Sub-Projects
+   :caption: Sub-Projects in Github
    :hidden:
-
-
+   ovis <https://github.com/ovis-hpc/ovis>
+   ovis-publications <https://github.com/ovis-hpc/ovis-publications>
+   maestro <https://github.com/ovis-hpc/maestro>
+   sos <https://github.com/ovis-hpc/sos>
 
 Contributor Relevant RFCs
 -------------------------
