@@ -32,10 +32,9 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
    maestro <https://github.com/ovis-hpc/maestro>
    sos <https://github.com/ovis-hpc/sos>
 
-Main
-==================
 Home
 -------------------------
+:doc:`<https://github.com/ovis-hpc/ovis-wiki/wiki>`
 Search
 -------------------------
 Feature Overview
