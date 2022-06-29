@@ -27,10 +27,10 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
    :maxdepth: 1
    :caption: Sub-Projects in Github
    :hidden:
-   ovis <https://github.com/ovis-hpc/ovis>
-   ovis-publications <https://github.com/ovis-hpc/ovis-publications>
-   maestro <https://github.com/ovis-hpc/maestro>
-   sos <https://github.com/ovis-hpc/sos>
+   `ovis <https://github.com/ovis-hpc/ovis>`
+   `ovis-publications <https://github.com/ovis-hpc/ovis-publications>`
+   `maestro <https://github.com/ovis-hpc/maestro>`
+   `sos <https://github.com/ovis-hpc/sos>`
 
 Home
 -------------------------
@@ -57,8 +57,5 @@ D/SOS Documentation
 Workflow Examples
 ==================
 
-
-Indices and tables
-==================
 
 
