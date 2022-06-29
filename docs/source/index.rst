@@ -21,7 +21,7 @@ A github repository for the OVIS-LDMS source code can be found here: https://git
    :maxdepth: 3
    :caption: Contents
 
-   quickstart
+    :doc:`Quick Start <quickstart>`
   
 
 .. toctree::
