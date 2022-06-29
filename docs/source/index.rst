@@ -47,7 +47,6 @@ A github repository for the OVIS-LDMS source code can be found here: https://git
 Contributor Relevant RFCs
 -------------------------
 
-- :doc:`rfc:spec_1`
 - :doc:`rfc:spec_2`
 - :doc:`rfc:spec_7`
 - :doc:`rfc:spec_9`
