@@ -23,7 +23,8 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
 
 .. toctree::
    :maxdepth: 2
-   :caption: LDMS - Low overhead monitoring, transport and storage capability
+   :caption: LDMS - Low overhead monitoring, 
+   transport and storage capability
    
    quickstart
    feature-overview 
