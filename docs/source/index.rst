@@ -27,7 +27,6 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
    
    ldms-overview
    quickstart
-   feature-overview 
    
 .. toctree::
    :maxdepth: 2
@@ -38,6 +37,7 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
 .. toctree::
    :maxdepth: 2
    :caption: AppSysFusion 
+   
    AppSysFusion-overview
    
 .. toctree::
