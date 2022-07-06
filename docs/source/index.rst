@@ -18,6 +18,7 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
 .. toctree::
    :maxdepth: 2
    :caption: About OVIS
+   
    quickstart
    githubwiki
   
@@ -25,6 +26,7 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
 .. toctree::
    :maxdepth: 2
    :caption: Sub-Projects in Github
+   
    `ovis <https://github.com/ovis-hpc/ovis>`_
    `ovis-publications <https://github.com/ovis-hpc/ovis-publications>`_
    `maestro <https://github.com/ovis-hpc/maestro>`_
