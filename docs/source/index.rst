@@ -23,31 +23,38 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
 
 .. toctree::
    :maxdepth: 2
-   :caption: LDMS - Low overhead monitoring, 
-   transport and storage capability
+   :caption: LDMS 
    
+   ldms-overview
    quickstart
    feature-overview 
    
 .. toctree::
    :maxdepth: 2
-   :caption: SOS - High performance storage and search capability
+   :caption: SOS
+   
+   SOS-overview
    
 .. toctree::
    :maxdepth: 2
-   :caption: AppSysFusion - Application and system data analysis and visualization capability
-
+   :caption: AppSysFusion 
+   AppSysFusion-overview
+   
 .. toctree::
    :maxdepth: 2
    :caption: Baler
 
+   Baler-overview
+   
 .. toctree::
    :maxdepth: 2
    :caption: Contributing to OVIS
 
 .. toctree::
    :maxdepth: 2
-   :caption: LDMSCON - LDMS Users Group Conference
+   :caption: LDMSCON 
+   
+   LDMS-UGC
    
 Other Projects
 ====================================
