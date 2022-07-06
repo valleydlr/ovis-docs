@@ -19,13 +19,34 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
    :maxdepth: 2
    :caption: About OVIS
    
-   quickstart
    githubwiki
-  
 
 .. toctree::
    :maxdepth: 2
-   :caption: Sub-Projects in Github
+   :caption: LDMS - Low overhead monitoring, transport and storage capability
+   
+   quickstart
+   feature-overview 
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: SOS - High performance storage and search capability
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: AppSysFusion - Application and system data analysis and visualization capability
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Baler
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contributing to OVIS
+
+.. toctree::
+   :maxdepth: 2
+   :caption: LDMSCON - LDMS Users Group Conference
    
    `ovis <https://github.com/ovis-hpc/ovis>`_
    `ovis-publications <https://github.com/ovis-hpc/ovis-publications>`_
