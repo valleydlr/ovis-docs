@@ -9,7 +9,7 @@
    contain the root `toctree` directive.
 
 Welcome To OVIS-HPC Documentation!
-================================
+====================================
 
 OVIS is a modular system for HPC data collection, transport, storage, -log message exploration, and visualization as well as analysis.
 
@@ -48,10 +48,12 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
    :maxdepth: 2
    :caption: LDMSCON - LDMS Users Group Conference
    
-   `ovis <https://github.com/ovis-hpc/ovis>`_
-   `ovis-publications <https://github.com/ovis-hpc/ovis-publications>`_
-   `maestro <https://github.com/ovis-hpc/maestro>`_
-   `sos <https://github.com/ovis-hpc/sos>`_
+Other Projects
+====================================
+`ovis <https://github.com/ovis-hpc/ovis>`_
+`ovis-publications <https://github.com/ovis-hpc/ovis-publications>`_
+`maestro <https://github.com/ovis-hpc/maestro>`_
+`sos <https://github.com/ovis-hpc/sos>`_
    
 
 
