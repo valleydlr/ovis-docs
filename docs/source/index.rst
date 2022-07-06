@@ -25,36 +25,55 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
    :maxdepth: 2
    :caption: LDMS 
    
-   ldms-overview
-   quickstart
+   ldms-quickstart
    
 .. toctree::
    :maxdepth: 2
    :caption: SOS
    
-   SOS-overview
+   SOS-quickstart
    
 .. toctree::
    :maxdepth: 2
    :caption: AppSysFusion 
    
-   AppSysFusion-overview
+   asf-quickstart
    
+.. toctree::
+   :maxdepth: 2
+   :caption: Maestro
+
+   maestro-quickstart
+
 .. toctree::
    :maxdepth: 2
    :caption: Baler
 
-   Baler-overview
+   baler-quickstart
    
 .. toctree::
    :maxdepth: 2
    :caption: Contributing to OVIS
 
+   contribute
+
 .. toctree::
    :maxdepth: 2
-   :caption: LDMSCON 
+   :caption: LDMSCON - LDMS User's Group Conference 
    
-   LDMS-UGC
+   ldmscon
+
+.. toctree::
+   :maxdepth: 2
+   :caption: User's Group Meetings
+   
+   ug
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Publications
+
+   publications
    
 Other Projects
 ====================================

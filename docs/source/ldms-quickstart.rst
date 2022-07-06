@@ -1,4 +1,4 @@
-Quick Start Page
+LDMS Quick Start
 ###########################
 This is an example of the quickstart page. 
 
