@@ -15,10 +15,9 @@ OVIS is a modular system for HPC data collection, transport, storage, -log messa
 
 LDMS is a low-overhead, low-latency framework for collecting, transfering, and storing metric data on a large distributed computer system.
 
-
 .. toctree::
-   :maxdepth: 3
-   :caption: Contents
+   :maxdepth: 1
+   :caption: About OVIS
    quickstart
    githubwiki
   
