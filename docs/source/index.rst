@@ -31,7 +31,7 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
    :maxdepth: 2
    :caption: SOS
    
-   SOS-quickstart
+   sos-quickstart
    
 .. toctree::
    :maxdepth: 2
