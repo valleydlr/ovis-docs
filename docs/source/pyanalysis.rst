@@ -77,8 +77,8 @@ Then you can imitate the Grafana query to call your analysis module using a pyth
     from time_series_formatter import time_series_formatter
     from dsosTemplate import dsosTemplate
     
-    sess = Sos.Session("/opt/ovis/eclipse/config/dsos.conf")
-    cont = '/storage/eclipse/sos/ldms-data'
+    sess = Sos.Session("/<DSOS_CONFIG_PATH>/config/dsos.conf")
+    cont = '/<PATH_TO_DATABASE>'
     cont = sess.open(cont)
     
     model = dsosTemplate(cont, time.time()-300, time.time(), schema='meminfo', maxDataPoints=4096)
