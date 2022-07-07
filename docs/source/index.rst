@@ -26,18 +26,24 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
    :caption: LDMS 
    
    ldms-quickstart
+   ldms-tutorial
    
 .. toctree::
    :maxdepth: 2
    :caption: SOS
    
    sos-quickstart
+   sos-tutorial
    
 .. toctree::
    :maxdepth: 2
    :caption: AppSysFusion 
    
    asf-quickstart
+   grafanausage
+   grafanapanel
+   pyanalysis
+   asf-tutorial
    
 .. toctree::
    :maxdepth: 2
@@ -55,7 +61,9 @@ LDMS is a low-overhead, low-latency framework for collecting, transfering, and s
    :maxdepth: 2
    :caption: Contributing to OVIS
 
-   contribute
+   samplerwrite
+   storewrite
+   docreqs
 
 .. toctree::
    :maxdepth: 2
