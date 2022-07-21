@@ -7,21 +7,21 @@ An analysis module is a python script and has a general template. There is a cla
 
 __init__
 
-    * cont: A Sos.Container object which contains the path information to the SOS container specified in the Grafana query
-    * start: The beginning of the time range of the Grafana query (in epoch time)
-    * end: The end of the time range of the Grafana query (in epoch time)
-    * schema: The LDMS schema specified by the Grafana query
-	    * E.g. meminfo
-    * maxDataPoints: the maximum number of points that Grafana can display on the user's screen
+* cont: A Sos.Container object which contains the path information to the SOS container specified in the Grafana query
+* start: The beginning of the time range of the Grafana query (in epoch time)
+* end: The end of the time range of the Grafana query (in epoch time)
+* schema: The LDMS schema specified by the Grafana query
+    * E.g. meminfo
+* maxDataPoints: the maximum number of points that Grafana can display on the user's screen
 
 get_data
 
-    * metrics: a python list of LDMS metrics 
-	    * E.g. ['Active','MemFree']
-	* filters: a python list of filter strings for the DSOS query
-	    * E.g. ['job_id == 30','component_id < 604']
-    * params: a string of the extra parameters for the module to use as desired
-	    * E.g. 'threshold = 10'
+* metrics: a python list of LDMS metrics 
+    * E.g. ['Active','MemFree']
+* filters: a python list of filter strings for the DSOS query
+	* E.g. ['job_id == 30','component_id < 604']
+* params: a string of the extra parameters for the module to use as desired
+	* E.g. 'threshold = 10'
 	
 Example Analysis Module
 -------------------------------------
@@ -56,7 +56,9 @@ Below is a basic analysis that simply queries the database and returns the DataF
 
 In the __init__ function, most things are set to be self variables to access them later in the get_data using the super() function. The super() function also sets up a variable called self.query which is a Sos.SqlQuery object. The 1000000 in the super() function sets the block size for this self.query object. An optimal block size is dependent on the query, however 1 million has been sufficiently performant to this point.  
 
-In the get_data function we create a select clause for the DSOS query by joining the metrics and schema variables. The self.get_where is a graf_analysis class function which takes filter parameters and makes an SQL-like where clause string with self.start and self.end as timestamp boundaries. There is also the orderby variable which we are setting as 'time_job_comp' here. This refers to what index we should use when querying the database. Our SOS databases are setup to use permutations of timestamps, job IDs, and component IDs as multi-indices. Depending on your filter, you may want to use a different multi-index. With the example parameters specified in the last section, our select statement here would be 'select Active,MemFree from meminfo where timestamp > start and timestamp < end and job_id == 30 and component_id < 604 order_by time_job_comp'. 
+In the get_data function we create a select clause for the DSOS query by joining the metrics and schema variables. The self.get_where is a graf_analysis class function which takes filter parameters and makes an SQL-like where clause string with self.start and self.end as timestamp boundaries. There is also the orderby variable which we are setting as 'time_job_comp' here. This refers to what index we should use when querying the database. Our SOS databases are setup to use permutations of timestamps, job IDs, and component IDs as multi-indices. Depending on your filter, you may want to use a different multi-index. 
+
+With the example parameters specified in the last section, our select statement here would be 'select Active,MemFree from meminfo where timestamp > start and timestamp < end and job_id == 30 and component_id < 604 order_by time_job_comp'. 
 
 The self.get_all_data takes the Sos.SqlQuery object, self.query, and calls self.query.next. This returns a block size number of records that match the query from database defined by the cont variable. If there are more than a block size number of records, it continues calling self.query.next and appending the results to a pandas DataFrame until all data is returned. 
 
@@ -68,7 +70,8 @@ Testing an Analysis Module
 You do not need to query from the Grafana interface to test your module. Below is a simple code which mimics the Grafana pipeline and prints the JSON returned to Grafana. 
 
 To run the test module, you will first need to set your path and pythonpath environment variables by running:
-.. code-block:: bash
+
+.. code-block :: bash
     export PYTHONPATH=/usr/bin/python:/<INSTALL_PATH>/lib/python<PYTHON_VERSION>/site-packages/
     export PATH=/usr/bin:/<INSTALL_PATH>/bin:/<INSTALL_PATH>/sbin::$PATH
 
