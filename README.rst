@@ -1,5 +1,41 @@
 OVIS-HPC Documentation
-=======================================
+########################
 
-This repository hosts all Ovis/LDMS related documentation such as how-to tutorials, getting started with LDMS, docker-hub links, LDMS API and much more.
+This repository hosts all Ovis/LDMS related documentation such as how-to tutorials, getting started with LDMS, docker-hub links, LDMS API and much more. Documentation webpage can be found here: https://ovis-docs.readthedocs.io/en/latest/index.html
+
+Contributing to ReadTheDocs
+############################
+Instructions and documentation on how to use ReadTheDocs can be found here:
+https://sublime-and-sphinx-guide.readthedocs.io/en/latest/images.html
+
+Paper Lock
+************
+This is for claiming any sections you are working on so there is no overlap.
+Please USE paper.lock to indicate if you are editing an existing RST file.
+
+* Clone the repository:
+
+.. code-block:: RST
+
+  > git clone git@github.com:<current-repo>/ovis-docs.git
+
+* Add any existing file name(s) you will be editing to paper.lock
+.. code-block:: RST
+
+  > vi paper.lock
+  <add Name | Date | File(s)>
+  <username> | mm/dd | <filename>
+
+* Make necessary changes, update paper.lock file and push to repo.
+.. code-block:: RST
+
+  > vi paper.lock
+  <add Name | Date | File(s)>
+  ## remove line
+  > git add
+  > git commit -m "add message"
+  > git push
+  
+  
+
 
