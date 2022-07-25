@@ -8,10 +8,6 @@ Contributing to ReadTheDocs
 Instructions and documentation on how to use ReadTheDocs can be found here:
 https://sublime-and-sphinx-guide.readthedocs.io/en/latest/images.html
 
-Paper Lock
-************
-This is for claiming any sections you are working on so there is no overlap.
-Please USE paper.lock to indicate if you are editing an existing RST file.
 
 * Clone the repository:
 
@@ -36,6 +32,9 @@ Please USE paper.lock to indicate if you are editing an existing RST file.
   > git commit -m "add message"
   > git push
   
-  
+Paper Lock
+************
+This is for claiming any sections you are working on so there is no overlap.
+Please USE paper.lock to indicate if you are editing an existing RST file.  
 
 
