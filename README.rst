@@ -34,8 +34,7 @@ https://sublime-and-sphinx-guide.readthedocs.io/en/latest/images.html
   
 Adding A New File 
 ******************
-* For any new RST files created, please include them in the index.rst file under their corresponding sections.
-Any RST files will not populate on the ReadTheDocs webpage if they are not added to this file.
+For any new RST files created, please include them in the index.rst file under their corresponding sections. All RST files not included in index.rst will not populate on the offical webpage (e.g. readthedocs).
 
 Paper Lock
 ************
