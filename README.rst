@@ -32,6 +32,11 @@ https://sublime-and-sphinx-guide.readthedocs.io/en/latest/images.html
   > git commit -m "add message"
   > git push
   
+Adding A New File 
+******************
+* For any new RST files created, please include them in the index.rst file under their corresponding sections.
+Any RST files will not populate on the ReadTheDocs webpage if they are not added to this file.
+
 Paper Lock
 ************
 This is for claiming any sections you are working on so there is no overlap.
