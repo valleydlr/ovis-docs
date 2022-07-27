@@ -28,7 +28,7 @@ https://sublime-and-sphinx-guide.readthedocs.io/en/latest/images.html
   > vi paper.lock
   <add Name | Date | File(s)>
   ## remove line
-  > git add
+  > git add <files>
   > git commit -m "add message"
   > git push
   
